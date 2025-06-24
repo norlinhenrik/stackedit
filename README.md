@@ -4,6 +4,7 @@ Make references this way:
 <a name="my-target"></a>
 [Link to target](README.md#my-target)
 
+DEPRECATED
 
 Plan as of June 24, 2025 for writing docs - well, too complicated, how to automate step 2?:
 
@@ -45,5 +46,5 @@ Reference to :ref:`my-label` depends on step 2.
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU5MTA5MTQ2OSw1MzQxNjgyMjhdfQ==
+eyJoaXN0b3J5IjpbMjI5MDE4MTA0LDUzNDE2ODIyOF19
 -->
