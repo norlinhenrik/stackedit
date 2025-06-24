@@ -2,10 +2,10 @@
 
 Make references this way:
 <a name="my-target"></a>
+[Link to target](my-file.md#my-target)
 
 
-
-Plan as of June 24, 2025 for writing docs:
+Plan as of June 24, 2025 for writing docs - well, this too complicated:
 
 1. Write example.md with stackedit. Use rst syntax for labels and references.
 ```
@@ -45,5 +45,5 @@ Reference to :ref:`my-label` depends on step 2.
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk3NTMzMjE1NCw1MzQxNjgyMjhdfQ==
+eyJoaXN0b3J5IjpbMzMzMzE0NTI2LDUzNDE2ODIyOF19
 -->
