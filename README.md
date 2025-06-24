@@ -6,9 +6,9 @@ Plan as of June 24, 2025 for writing docs:
 ```
 .. _my-label:
 
+# md demo with label in rst format
 
-
-Reference to :ref:`my-label`
+Reference to :ref:`my-label` 
 ```
 
 2. Use pandoc to convert md to rst, with a lua-filter.
@@ -29,5 +29,5 @@ end
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTczMjY0Njg1Ml19
+eyJoaXN0b3J5IjpbMjUyMzE0MzJdfQ==
 -->
