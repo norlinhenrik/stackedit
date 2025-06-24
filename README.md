@@ -2,7 +2,7 @@
 
 Plan as of June 24, 2025 for writing docs:
 
-1. Write example.md with stackedit Use rst syntax for labels and references.
+1. Write example.md with stackedit. Use rst syntax for labels and references.
 ```
 .. _my-label:
 
@@ -12,6 +12,7 @@ Reference to :ref:`my-label` depends on step 2.
 ```
 
 2. Use pandoc to convert md to rst, with a lua-filter.
+
 `pandoc example.md -o example.rst --lua-filter=md2rst.lua`
 ```
 -- Preserve rst :ref: `my-reference` syntax
@@ -27,7 +28,7 @@ function Inlines(inlines)
   return inlines
 end
 ```
-3. example.rst will look like this:
+4. example.rst will look like this:
 
 ```
 .. \_my-label:
@@ -39,5 +40,5 @@ Reference to :ref:`my-label` depends on step 2.
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4NTE0NjU4MjFdfQ==
+eyJoaXN0b3J5IjpbNTM0MTY4MjI4XX0=
 -->
