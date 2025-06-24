@@ -1,12 +1,12 @@
 # stackedit
 
 Plan as of June 24, 2025 for writing docs:
-1. Write with stackedit, and use rst syntax for labels and references.
+1. Write example.md with stackedit Use rst syntax for labels and references.
 
 ```
 .. _my-label:
 
-# example.md with label in rst format
+# Label demo
 
 Reference to :ref:`my-label` depends on step 2 below.
 ```
@@ -38,5 +38,5 @@ md demo with label in rst format
 Reference to :ref:`my-label` depends on step 2 below.
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3MDE0NTEzNDBdfQ==
+eyJoaXN0b3J5IjpbMTIxMjE0NjI2M119
 -->
