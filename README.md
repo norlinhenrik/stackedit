@@ -3,9 +3,15 @@
 Plan as of June 24, 2025 for writing docs:
 1. Write with stackedit, and use rst syntax for labels and references.
 
+```
+.. _my-label:
 
 
-3. Use pandoc to convert md to rst, with a lua-filter.
+
+Reference to :ref:`my-label`
+```
+
+2. Use pandoc to convert md to rst, with a lua-filter.
 `pandoc example.md -o example.rst --lua-filter=md2rst.lua`
 ```
 -- Preserve rst :ref: `my-reference` syntax
@@ -23,5 +29,5 @@ end
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODM5Njc2NTczXX0=
+eyJoaXN0b3J5IjpbLTczMjY0Njg1Ml19
 -->
