@@ -1,14 +1,14 @@
 # stackedit
 
 Plan as of June 24, 2025 for writing docs:
-1. Write example.md with stackedit Use rst syntax for labels and references.
 
+1. Write example.md with stackedit Use rst syntax for labels and references.
 ```
 .. _my-label:
 
 # Label demo
 
-Reference to :ref:`my-label` depends on step 2 below.
+Reference to :ref:`my-label` depends on step 2.
 ```
 
 2. Use pandoc to convert md to rst, with a lua-filter.
@@ -32,11 +32,12 @@ end
 ```
 .. \_my-label:
 
-md demo with label in rst format
-================================
+Label demo
+==========
 
-Reference to :ref:`my-label` depends on step 2 below.
+Reference to :ref:`my-label` depends on step 2.
 ```
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIxMjE0NjI2M119
+eyJoaXN0b3J5IjpbLTE4NTE0NjU4MjFdfQ==
 -->
