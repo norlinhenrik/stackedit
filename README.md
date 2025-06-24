@@ -1,5 +1,10 @@
 # stackedit
 
+Make references this way:
+<a name="my-target"></a>
+
+
+
 Plan as of June 24, 2025 for writing docs:
 
 1. Write example.md with stackedit. Use rst syntax for labels and references.
@@ -40,5 +45,5 @@ Reference to :ref:`my-label` depends on step 2.
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTM0MTY4MjI4XX0=
+eyJoaXN0b3J5IjpbLTk3NTMzMjE1NCw1MzQxNjgyMjhdfQ==
 -->
