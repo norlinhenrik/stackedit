@@ -6,7 +6,7 @@ Plan as of June 24, 2025 for writing docs:
 ```
 .. _my-label:
 
-# md demo with label in rst format
+# example.md with label in rst format
 
 Reference to :ref:`my-label` depends on step 2 below.
 ```
@@ -27,7 +27,16 @@ function Inlines(inlines)
   return inlines
 end
 ```
+3. example.rst will look like this:
 
+```
+.. \_my-label:
+
+md demo with label in rst format
+================================
+
+Reference to :ref:`my-label` depends on step 2 below.
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg0MjU0MDQ5XX0=
+eyJoaXN0b3J5IjpbLTE3MDE0NTEzNDBdfQ==
 -->
