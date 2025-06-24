@@ -17,6 +17,8 @@ function Inlines(inlines)
   return inlines
 end
 ```
+`pandoc example.md -o example.rst --lua-filter=md2rst.lua`
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTMxMTg5NTU1XX0=
+eyJoaXN0b3J5IjpbODU1NzUyMDE4XX0=
 -->
