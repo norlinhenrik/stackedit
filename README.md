@@ -2,6 +2,7 @@
 
 Make references this way:
 <a name="my-target"></a>
+`<a name="my-target"></a>`
 [Link to target](README.md#my-target)
 
 DEPRECATED
@@ -46,5 +47,5 @@ Reference to :ref:`my-label` depends on step 2.
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjI5MDE4MTA0LDUzNDE2ODIyOF19
+eyJoaXN0b3J5IjpbLTUxMTMxOTI3MSw1MzQxNjgyMjhdfQ==
 -->
